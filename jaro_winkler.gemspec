@@ -18,6 +18,7 @@ Gem::Specification.new do |spec|
   spec.homepage = 'https://github.com/tonytonyjan/jaro_winkler'
   spec.license = 'MIT'
   spec.files = Dir['lib/**/*.rb', 'ext/**/*.{h,c}']
+  spec.add_dependency 'ffi', '~> 1.9'
   spec.add_development_dependency 'bundler', '~> 1.7'
   spec.add_development_dependency 'rake', '~> 10.0'
   spec.add_development_dependency 'rake-compiler'
